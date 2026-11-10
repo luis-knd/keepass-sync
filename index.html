@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Información sobre KeePass Sync personal, una utilidad local para sincronizar una base de datos cifrada de KeePass con Google Drive.">
+  <title>KeePass Sync personal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <header>
+    <a class="brand" href="./">KeePass Sync personal</a>
+    <nav aria-label="Navegación principal">
+      <a href="./" aria-current="page">Inicio</a>
+      <a href="privacidad.html">Privacidad</a>
+    </nav>
+  </header>
+  <main id="contenido">
+    <p class="eyebrow">Utilidad de uso personal</p>
+    <h1>La misma base de KeePass en tus equipos.</h1>
+    <p class="lead">KeePass Sync personal sincroniza un archivo cifrado de KeePass entre equipos Linux y la cuenta de Google Drive de su propietario.</p>
+    <section aria-labelledby="funcionamiento">
+      <h2 id="funcionamiento">Cómo funciona</h2>
+      <ol>
+        <li>Comprueba la copia de Drive antes de abrir la base en KeePassXC y descarga los cambios pendientes cuando es seguro hacerlo.</li>
+        <li>Al guardar, sube el archivo cifrado a Drive y conserva un número limitado de respaldos.</li>
+        <li>Si la copia local y la de Drive han cambiado por separado, conserva ambas para su revisión y fusión manual.</li>
+      </ol>
+    </section>
+    <section aria-labelledby="datos">
+      <h2 id="datos">Acceso a Google Drive</h2>
+      <p>La utilidad solicita autorización de lectura y escritura en Google Drive para descargar y actualizar la base compartida, mantener sus respaldos y comprobar sus metadatos. La autorización se realiza directamente con Google.</p>
+      <p>La sincronización se ejecuta en los equipos del propietario. Transfiere el archivo <code>.kdbx</code> cifrado y no necesita la contraseña maestra ni descifra sus entradas. Este sitio es informativo: no permite subir bases ni iniciar sesión.</p>
+      <p><a class="text-link" href="privacidad.html">Leer la política de privacidad <span aria-hidden="true">→</span></a></p>
+    </section>
+    <section aria-labelledby="contacto">
+      <h2 id="contacto">Responsable y asistencia</h2>
+      <p>Proyecto personal de Luis Candelario. Para contactar con el responsable, utiliza el correo de asistencia mostrado en la pantalla de autorización de Google o su <a href="https://github.com/luis-knd">perfil de GitHub</a>.</p>
+    </section>
+  </main>
+  <footer>
+    <span>KeePass Sync personal</span>
+    <a href="privacidad.html">Política de privacidad</a>
+  </footer>
+</body>
+</html>
